@@ -10,7 +10,7 @@ files, then you need to either clone this repository and install all python depe
 requirements.txt file, or, you can turn this repository into a collection of interactive notebooks using the 
 following link: 
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/sebfest/motivation_and_incentives/master)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/sebfest/leadership_in_the_gig_economy/master)
 
 ## Index
 1. Study 1:
