@@ -7,7 +7,9 @@ This project folder contains data and scripts to reproduce the results presented
 Scripts are available as [Jupyter Notebooks](http://jupyter.org/) and are stored in the notebook subfolder. 
 You can directly open and read the scripts by clicking on them. If you want to work interactively with the project 
 files, then you need to install all python dependencies that are listed in the requirements.txt file and 
-clone this repository.
+clone this repository. 
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/sebfest/motivation_and_incentives/master)
 
 ## Index
 1. Study 1:
