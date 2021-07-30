@@ -1,5 +1,5 @@
 # Data and scripts: How (not) to motivate online workers: Two controlled field experiments on leadership in the gig economy
-###Sebastian Fest, Ola Kvaløy, Petra Nieken, Anja Schöttner
+### Sebastian Fest, Ola Kvaløy, Petra Nieken, Anja Schöttner
 
 ## Description
 
