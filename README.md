@@ -20,7 +20,7 @@ clone this repository.
    7. [Additional figures and tables](https://github.com/sebfest/motivation_and_incentives/blob/master/notebook/experiment_1/7_additional_figures.ipynb)
 
 2. Study 2:
-   1. [Creating workable dataset](https://github.com/sebfest/motivation_and_incentives/blob/master/notebook/experiment_1/experiment_2/1_make_dataset.ipynb)
+   1. [Creating workable dataset](https://github.com/sebfest/motivation_and_incentives/blob/master/notebook/experiment_2/1_make_dataset.ipynb)
    2. [Sample characterisitcs and sample balance](https://github.com/sebfest/motivation_and_incentives/blob/master/notebook/experiment_2/2_balance_and_sample.ipynb)
    3. [Intervention timer](https://github.com/sebfest/motivation_and_incentives/blob/master/notebook/experiment_2/3_intervention_timer_and_background_questions.ipynb)
    4. [Treatment effects on quantity](https://github.com/sebfest/motivation_and_incentives/blob/master/notebook/experiment_2/4_treatment_effects_quantity.ipynb)
