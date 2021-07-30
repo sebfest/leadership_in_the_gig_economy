@@ -1,0 +1,58 @@
+\begin{center}
+\begin{tabular}{lccc}
+\toprule
+                                             &    \textbf{OLS}    &  \textbf{First} &           \textbf{2SLS}            \\
+\midrule
+\textbf{Dep. Variable}                       &  Avg\_edit\_ratio  &   Rel\_counter  &          Avg\_edit\_ratio          \\
+\textbf{Estimator}                           &        OLS         &       OLS       &              IV-2SLS               \\
+\textbf{No. Observations}                    &        2680        &       2680      &                2680                \\
+\textbf{Cov. Est.}                           &       robust       &      robust     &               robust               \\
+\textbf{R-squared}                           &       0.0271       &      0.0839     &               0.0236               \\
+\textbf{Adj. R-squared}                      &       0.0249       &      0.0794     &               0.0214               \\
+\textbf{F-statistic}                         &       54.118       &      245.13     &               40.091               \\
+\textbf{P-value (F-stat)}                    &     6.985e-10      &      0.0000     &             4.372e-07              \\
+\textbf{=================================}   &  ================  &  =============  &          ================          \\
+\textbf{Intercept}                           &     0.0342***      &    0.3403***    &               0.0285               \\
+\textbf{ }                                   &      (0.0042)      &     (0.0104)    &              (0.0265)              \\
+\textbf{Rel\_counter}                        &     -0.0353***     &                 &              -0.0191               \\
+\textbf{ }                                   &      (0.0071)      &                 &              (0.0729)              \\
+\textbf{Age}                                 &     -8.155e-05     &    -0.0024***   &             -4.218e-05             \\
+\textbf{ }                                   &    (5.325e-05)     &     (0.0002)    &              (0.0002)              \\
+\textbf{Female}                              &     -0.0041***     &     0.0091**    &             -0.0042***             \\
+\textbf{ }                                   &      (0.0011)      &     (0.0042)    &              (0.0014)              \\
+\textbf{Education}                           &      -0.0005       &    0.0066***    &              -0.0006               \\
+\textbf{ }                                   &      (0.0004)      &     (0.0016)    &              (0.0006)              \\
+\textbf{Mobile\_device}                      &      0.0062**      &    -0.0628***   &               0.0071               \\
+\textbf{ }                                   &      (0.0024)      &     (0.0108)    &              (0.0051)              \\
+\textbf{Latin\_med}                          &      -0.0005       &     0.0120**    &              -0.0007               \\
+\textbf{ }                                   &      (0.0013)      &     (0.0047)    &              (0.0021)              \\
+\textbf{Low\_piece\_rate}                    &                    &    0.0247***    &                                    \\
+\textbf{ }                                   &                    &     (0.0093)    &                                    \\
+\textbf{High\_piece\_rate}                   &                    &    0.0246***    &                                    \\
+\textbf{ }                                   &                    &     (0.0090)    &                                    \\
+\textbf{Praise}                              &                    &     -0.0158*    &                                    \\
+\textbf{ }                                   &                    &     (0.0088)    &                                    \\
+\textbf{Reference\_point}                    &                    &      0.0098     &                                    \\
+\textbf{ }                                   &                    &     (0.0083)    &                                    \\
+\textbf{Low\_piece\_rate:Praise}             &                    &     -0.0059     &                                    \\
+\textbf{ }                                   &                    &     (0.0130)    &                                    \\
+\textbf{Low\_piece\_rate:Reference\_point}   &                    &     -0.0201*    &                                    \\
+\textbf{ }                                   &                    &     (0.0121)    &                                    \\
+\textbf{High\_piece\_rate:Praise}            &                    &      0.0011     &                                    \\
+\textbf{ }                                   &                    &     (0.0127)    &                                    \\
+\textbf{High\_piece\_rate:Reference\_point}  &                    &    -0.0245**    &                                    \\
+\textbf{ }                                   &                    &     (0.0121)    &                                    \\
+\textbf{===================================} & ================== & =============== & =================================  \\
+\textbf{Instruments}                         &                    &                 &          Low\_piece\_rate          \\
+\textbf{}                                    &                    &                 &         High\_piece\_rate          \\
+\textbf{}                                    &                    &                 &               Praise               \\
+\textbf{}                                    &                    &                 &          Reference\_point          \\
+\textbf{}                                    &                    &                 &      Low\_piece\_rate:Praise       \\
+\textbf{}                                    &                    &                 & Low\_piece\_rate:Reference\_point  \\
+\textbf{}                                    &                    &                 &      High\_piece\_rate:Praise      \\
+\bottomrule
+\end{tabular}
+%\caption{Model Comparison}
+\end{center}
+
+Std. Errors reported in parentheses

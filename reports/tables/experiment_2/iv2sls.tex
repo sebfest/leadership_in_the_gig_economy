@@ -1,0 +1,37 @@
+\begin{center}
+\begin{tabular}{lcc}
+\toprule
+                              &    \textbf{OLS}    &   \textbf{2SLS}     \\
+\midrule
+\textbf{Dep. Variable}        &  Avg\_edit\_ratio  &  Avg\_edit\_ratio   \\
+\textbf{Estimator}            &        OLS         &      IV-2SLS        \\
+\textbf{No. Observations}     &        1768        &        1768         \\
+\textbf{Cov. Est.}            &       robust       &       robust        \\
+\textbf{R-squared}            &       0.1260       &       0.1226        \\
+\textbf{Adj. R-squared}       &       0.1231       &       0.1196        \\
+\textbf{F-statistic}          &       109.10       &       52.424        \\
+\textbf{P-value (F-stat)}     &       0.0000       &     1.532e-09       \\
+\textbf{==================}   &  ================  &  ================   \\
+\textbf{Intercept}            &     0.0465***      &      0.0407**       \\
+\textbf{ }                    &      (0.0048)      &      (0.0183)       \\
+\textbf{Rel\_counter}         &     -0.0890***     &      -0.0705        \\
+\textbf{ }                    &      (0.0101)      &      (0.0570)       \\
+\textbf{Age}                  &     -0.0002***     &      -0.0002        \\
+\textbf{ }                    &    (7.859e-05)     &      (0.0001)       \\
+\textbf{Female}               &     -0.0041***     &     -0.0044***      \\
+\textbf{ }                    &      (0.0015)      &      (0.0017)       \\
+\textbf{Diverse}              &      -0.0015       &      -0.0022        \\
+\textbf{ }                    &      (0.0036)      &      (0.0039)       \\
+\textbf{Education}            &     0.0018***      &     0.0017***       \\
+\textbf{ }                    &      (0.0004)      &      (0.0005)       \\
+\textbf{Mobile\_device}       &      0.0199*       &      0.0222*        \\
+\textbf{ }                    &      (0.0102)      &      (0.0121)       \\
+\textbf{====================} & ================== & ==================  \\
+\textbf{Instruments}          &                    &      Charisma       \\
+\textbf{}                     &                    &        Goal         \\
+\bottomrule
+\end{tabular}
+%\caption{Model Comparison}
+\end{center}
+
+Std. Errors reported in parentheses
